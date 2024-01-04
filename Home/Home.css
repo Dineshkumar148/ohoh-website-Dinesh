@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-gradient-color: linear-gradient(180deg, #FFEEE8 -36.19%, #FBEBF8 41.31%, #F7F6FF 100%);
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #030122;
+    --bs-btn-bg: #FFFF;
+    --bs-btn-border-color: rgba(255, 77, 0, 0.45);
+    --bs-btn-hover-color: #FF5D25;
+}
+
+.top-header-bg {
+    background: var(--bg-gradient-color);
+}
+
+.ohoh-header {
+    border-radius: 70px;
+    border: 1px solid rgba(255, 93, 37, 0.10);
+    background: #FFF;
+
+}
+
+.ohoh-logo {
+    width: 81px;
+    height: 30px;
+}
+
+.request_btn {
+    border-radius: 32px;
+    border: 1px solid rgba(255, 77, 0, 0.45);
+    border-bottom: none;
+    background: #F7F6FF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: black;
+}
+
+.request_btn:hover {
+    background-color: #FF5D25;
+    color: #FFF;
+}
+
+.contact_btn {
+    border-radius: 36px;
+    border: 1px solid #FFECE6;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: black;
+}
+.contact_btn:hover {
+    background-color: #FF5D25;
+    color: #FFF;
+}
+.web-heading-font {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.web-subheading-font {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.web-paragraph-font {
+    color: #030122;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    /* 22.4px */
+}
+
+.nav-link {
+    color: #030122;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.primary-color {
+    color: #FF5D25;
+
+}
+
+.border-style {
+    background-color: #FF5D25;
+    height: 3px;
+    width: 10%;
+    position: center;
+}
+
+/*  */
+.card-style {
+    border-radius: 8px;
+    border: 1px solid #EAEAEE;
+    background: #FFF;
+}
+
+.card-title {
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.card-description {
+    color: #8E8E8E;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.card-font {
+    color: #26114A;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 16.8px */
+}
