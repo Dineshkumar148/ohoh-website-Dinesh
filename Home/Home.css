@@ -32,7 +32,7 @@
     border-radius: 32px;
     border: 1px solid rgba(255, 77, 0, 0.45);
     border-bottom: none;
-    background: #F7F6FF;
+    background: #FFF;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
     text-decoration: none;
     color: black;
@@ -106,7 +106,9 @@
     width: 10%;
     position: center;
 }
-
+.carousel-icon{
+    background-color: #FF5D25;
+}
 /*  */
 .card-style {
     border-radius: 8px;
@@ -127,7 +129,9 @@
     font-style: normal;
     font-weight: 500;
 }
-
+.card-color{
+    background:#FFFBF7;
+}
 .card-font {
     color: #26114A;
     font-family: Montserrat;
@@ -136,4 +140,7 @@
     font-weight: 600;
     line-height: 140%;
     /* 16.8px */
+}
+.blog-card{
+background: #F6F6F6;
 }
